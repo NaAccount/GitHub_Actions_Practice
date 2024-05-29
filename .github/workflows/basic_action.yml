@@ -1,7 +1,7 @@
 name: basic workflow
 on: push
 jobs: 
-  - job01:
+  job01:
       runs-on: ubuntu-latest
       steps:
         - name: step01
