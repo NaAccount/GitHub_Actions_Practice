@@ -6,3 +6,6 @@ jobs:
       steps:
         - name: step01
           run: echo "Hello World"
+          
+        - name: install terraform
+          uses: hashicorp/setup-terraform@v1
