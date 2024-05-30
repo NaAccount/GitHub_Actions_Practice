@@ -9,3 +9,6 @@ jobs:
           
         - name: install terraform
           uses: hashicorp/setup-terraform@v1
+
+        - name: Terraform init
+          run: terraform init
